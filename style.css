@@ -1,0 +1,234 @@
+@font-face {
+    font-family: font1;
+    src: url(./assets/6a1ed0dfa96e759e8395295a_BeautiqueDisplay-Italic.otf);
+}
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#top{
+    width: 100%;
+    min-height: 100vh;
+   background-image: url(./assets/6a1f0239886b36a2baed4eab_ChatGPT\ Image\ 2\ jun\ 2026\,\ 13_17_57-p-1080.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 15vh;
+}
+nav .atag{
+    display: flex;
+    gap: 2vw;
+    padding: 6%;
+}
+nav h1{
+    padding: 4%;
+    font-size: 320%;
+    font-family: sans-serif;
+    color: #fff;
+}
+nav .atag a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 80%;
+    font-weight: 700;
+}
+.content1{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 100%;
+    font-family: sans-serif;
+     padding-top: 4%;
+   
+
+}
+.content1 #digital{
+    
+    padding-left: 9%;
+    letter-spacing: 3px;
+}
+.content1 #con{
+    padding-right:9%;
+    letter-spacing: 3px;
+}
+.content2{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    /* height: 20hv; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: #fff;
+   
+    
+}
+.content2 h1{
+
+    font-size: 1650%;
+   font-family: font1;
+    font-weight: 90;
+    letter-spacing: 12px;
+}
+.content2 p{
+     position: absolute;
+    top: 97%;  
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 110%;
+}
+.content3{
+    position: absolute;
+    top: 82%; 
+    width: 100%;
+    display: flex;
+    padding-top: 4%;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 80%;
+    letter-spacing: 1px;
+}
+.content3 #web{
+    padding-left: 4%;
+}
+.content3 #street{
+    padding-right: 4%;
+}
+.section2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+.intro{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    font-family: sans-serif;
+}
+.intro h1{
+    padding-left: 5%;
+    font-size: 90%;
+    font-weight: 750;
+}
+.intro h2{
+      padding-right: 5%;
+    font-size: 90%;
+}
+.one{
+    
+}
+.heading{
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    width: 100%;
+    font-size: 190%;
+    font-family: sans-serif ;
+   
+}
+.sechead{
+    position: absolute;
+    top: 49%;
+    left: 6%;
+    width: 100%;
+    font-size: 190%;
+    font-family: sans-serif;
+}
+.paragraph{
+   
+}
+.para1{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    font-size: 140%;
+    font-family: sans-serif;
+
+}
+.para2{
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    font-size: 140%;
+     font-family: sans-serif;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+   
+
+}
+.part3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    padding-top: 5%;
+    
+
+}
+.Expertise h1{
+    font-size: 310%;
+}
+.Expertise {
+  padding-left: 6%;
+}
+.Expertise p{
+    font-size: 110%;
+    color: #8A8A8A;
+}
+.sec2{
+    padding-right: 6%;
+    font-size: 100%;
+
+}
+.holder{
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    height: 100%;
+     
+}
+.card{
+    width: 49%;
+    height: 60%;
+    background-color: aqua;
+    border-radius: 8px;
+  
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
